@@ -1,7 +1,7 @@
 import React from "react";
 /*styles*/
 import "@3ffect/gstring/assets/styles/main.scss";
-// import "assets/styles/main.scss";
+import "assets/styles/main.scss";
 /*components*/
 import Router from "components/master/router/Router.Main";
 import { getBrowserDetails } from "utilities/tracking/browserDetection";
@@ -39,7 +39,6 @@ class App extends React.Component {
               </div>
             </div>
           </div>
-         
         </div>
         <NotificationsContainer />
       </>
