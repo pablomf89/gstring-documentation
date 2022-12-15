@@ -20,6 +20,7 @@ import DatePickerPage from "components/content/pages/datePickerPage/datePickerPa
 import ResultsPage from "components/content/pages/resultsPage/resultsPage";
 import TabsPage from "components/content/pages/tabsPage/tabsPage";
 import InputsPage from "components/content/pages/forms/inputsPage/inputsPage";
+import GridPage from "components/content/pages/gridPage/gridPage";
 
 function getNavItemComponentByType(navItem, user, pages) {
   switch (navItem.type) {
@@ -53,6 +54,8 @@ function getNavItemComponentByType(navItem, user, pages) {
       return TabsPage;
     case "input-types":
       return InputsPage;
+    case "grid":
+      return GridPage;
     default:
       return PageTypeNotImplemented;
   }
