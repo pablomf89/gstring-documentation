@@ -69,8 +69,8 @@ export const FormExample: React.FC = (): ReactElement => {
         justifyFull
         unorderedList
         orderedList
-        label="Job description"
-        tooltip="Add here a description of the job position"
+        label="Wysiwyg"
+        tooltip="Tooltip example"
         validations={[required]}
         name="exampleWysiwig"
       />

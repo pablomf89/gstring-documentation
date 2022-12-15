@@ -38,7 +38,7 @@ export const pages = [
     id: "input-types",
     parentId: "forms",
     nicename: "input-types",
-    type: "forms",
+    type: "input-types",
     showInNav: true,
     showInSecondaryNav: true,
     isPrivate: false,

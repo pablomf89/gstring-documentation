@@ -27,7 +27,7 @@ class NavItem extends Component {
 
   getChildrenNodes = async () => {
     //if (!this.state.navItems) {
-    const navItems = await getMainNavChildrenItems(this.props.currentNode);
+    const navItems = await getMainNavChildrenItems(this.props.navItem);
     this.setState({ navItems: navItems });
     //}
   };
