@@ -78,6 +78,17 @@ export const pages = [
     profilesAllowed: 1,
   },
   {
+    N: "Tabs",
+    id: "tabs",
+    parentId: null,
+    nicename: "tabs",
+    type: "tabs",
+    showInNav: true,
+    showInSecondaryNav: true,
+    isPrivate: false,
+    profilesAllowed: 1,
+  },
+  {
     N: "Modals",
     id: "modals",
     parentId: null,

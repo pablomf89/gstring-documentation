@@ -18,6 +18,7 @@ import AccordionsPage from "components/content/pages/accordiosPage/accordiosPage
 import NotificationsPage from "components/content/pages/notificationsPage/notificationsPage";
 import DatePickerPage from "components/content/pages/datePickerPage/datePickerPage";
 import ResultsPage from "components/content/pages/resultsPage/resultsPage";
+import TabsPage from "components/content/pages/tabsPage/tabsPage";
 
 function getNavItemComponentByType(navItem, user, pages) {
   switch (navItem.type) {
@@ -47,6 +48,8 @@ function getNavItemComponentByType(navItem, user, pages) {
       return DatePickerPage;
     case "results":
       return ResultsPage;
+    case "tabs":
+      return TabsPage;
     default:
       return PageTypeNotImplemented;
   }
