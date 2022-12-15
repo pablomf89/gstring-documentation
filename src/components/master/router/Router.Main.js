@@ -3,7 +3,7 @@ import { Route, Redirect } from "react-router-dom";
 import { AppContext } from "components/master/context/App.Context";
 import { urlMatch } from "utilities/url";
 import Server404 from "components/content/pages/serverError/Server404";
-import { NavContext } from "../context/navigation/Navigation"; 
+import { NavContext } from "../context/navigation/Navigation";
 import GlobalElementsPage from "components/content/pages/globalElementsPage/globalElementsPage";
 import FormsPage from "components/content/pages/forms/formsPage";
 import FormWizardPage from "components/content/pages/formWizardPage/formWizardPage";
@@ -17,6 +17,7 @@ import CalendarPage from "components/content/pages/calendarPage/calendarPage";
 import AccordionsPage from "components/content/pages/accordiosPage/accordiosPage";
 import NotificationsPage from "components/content/pages/notificationsPage/notificationsPage";
 import DatePickerPage from "components/content/pages/datePickerPage/datePickerPage";
+import ResultsPage from "components/content/pages/resultsPage/resultsPage";
 
 function getNavItemComponentByType(navItem, user, pages) {
   switch (navItem.type) {
@@ -44,6 +45,8 @@ function getNavItemComponentByType(navItem, user, pages) {
       return NotificationsPage;
     case "date-picker":
       return DatePickerPage;
+    case "results":
+      return ResultsPage;
     default:
       return PageTypeNotImplemented;
   }

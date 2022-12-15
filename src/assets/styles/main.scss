@@ -1,4 +1,5 @@
 
+@import "./variables";
 @import "admin/modules/_global";
 @import "admin/modules/_scheleton";
 @import "admin/modules/_tree";
@@ -9,6 +10,9 @@
 @import "admin/modules/_dialogs";
 @import "admin/modules/_overlay"; 
 
+pre {
+    margin-top: 80px !important;
+}
 
 .table-config-container .dropdown-item {
  
