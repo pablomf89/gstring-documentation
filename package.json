@@ -1,8 +1,8 @@
 {
-  "name": "gstring",
+  "name": "gstring-documentation",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pablomf89.github.io/gstring",
+  "homepage": "https://pablomf89.github.io/gstring-documentation/",
   "dependencies": {
     "@3ffect/gstring": "^1.0.10",
     "@reduxjs/toolkit": "^1.7.1",
