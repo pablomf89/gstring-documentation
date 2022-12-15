@@ -1,0 +1,78 @@
+.admin-dialog {
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+}
+.dialog-title {
+  background: $dark-grey;
+  color: #fff;
+  padding: 10px 20px;
+}
+.dialog-title p {
+  margin: 0;
+}
+.admin-dialog .dialog-header {
+  background: $grey;
+  border-bottom: $global-border;
+}
+.admin-dialog .dialog-header .inner {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.admin-dialog .dialog-header .filters {
+  margin: 0 -10px;
+}
+.admin-dialog .dialog-content {
+}
+.admin-dialog .dialog-footer {
+  border-top: $global-border;
+}
+
+.select-trigger:hover:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $default-primary-color;
+  opacity: 0.5;
+}
+
+.select-trigger:hover:before {
+  font-size: 30px !important;
+  content: "\f046";
+  font: normal normal normal 14px/1 FontAwesome;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.select-trigger.active:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: $active-color;
+  opacity: 0.5;
+}
+.select-trigger.active:before {
+  font-size: 30px !important;
+  content: "\f046";
+  font: normal normal normal 14px/1 FontAwesome;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}

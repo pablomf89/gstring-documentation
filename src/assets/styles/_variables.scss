@@ -1,0 +1,51 @@
+$default-primary-color: #304e89 !default;
+$active-color: #2d79c1 !default;
+
+$link-color: $active-color !default;
+
+$white: #fff !default;
+$light-grey: #f1f1f1 !default;
+$grey: #eeeeee !default;
+$dark-grey: #747474;
+$black: #000 !default;
+
+$blue: #0092e3 !default;
+$red: #be3232 !default;
+$yellow: #d3a400 !default;
+$green: #67a01c !default;
+$warning-color: $yellow !default;
+$success-color: $green !default;
+$default-color: $dark-grey !default;
+$error-color: $red !default;
+$info-color: $blue !default;
+
+$font-color: $black !default;
+$input-background: #fafafa !default;
+
+/*margins and paddings*/
+$global-padding: 10px !default;
+$global-margin: 10px !default;
+
+/*border*/
+$global-border: 1px solid #ddd !default;
+$light-border: 1px solid $light-grey;
+$border-radius: 5px;
+
+/*media queries breakpoints*/
+$desktop-big: 1800px !default;
+$desktop: 1280px !default;
+$laptop: 1024px !default;
+$tablet: 960px !default;
+$mobile: 640px !default;
+
+/*fonts*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans); 
+$global-font-family: "Open Sans", Arial;
+
+$global-font-size: 14px !default;
+$global-line-height: 22px !default; 
+
+$small-font-size: 13px !default;
+
+$transition: 0.3s;
+ 

@@ -1,0 +1,19 @@
+.profile-wrapper {}
+.profile-wrapper .profile-image-wrapper { margin-right: $global-margin; }
+.profile-wrapper .profile-name { margin-bottom: 4px; }
+
+
+#auth-form-overlay {
+    .input-label { left: 15px; }
+    label.error,
+    .move-label .input-label,
+    .move-label ~ .input-label,
+    .input-default.error ~ .input-label,
+    .input-default.valid ~ .input-label { top: 11px; }
+    .input-default:-webkit-autofill ~ .input-label { top: 11px; }
+
+    .input-icon {  top: 23px; right: 5px;  }
+}
+@media (max-width: $desktop-big) {
+    .user-wrapper-actions { clear: left; display: flex; }
+}

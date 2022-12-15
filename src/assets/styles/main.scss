@@ -1,0 +1,45 @@
+
+@import "admin/modules/_global";
+@import "admin/modules/_scheleton";
+@import "admin/modules/_tree";
+@import "admin/modules/_panels";
+@import "admin/modules/_user";
+@import "admin/modules/_properties";
+@import "admin/modules/_files";
+@import "admin/modules/_dialogs";
+@import "admin/modules/_overlay"; 
+
+
+.table-config-container .dropdown-item {
+ 
+    display: flex !important;
+    padding: 10px 5px;
+}
+.table-config-container { position: relative; }
+.table-config-container ul { margin: 0 }
+.table-config-container .input-wrapper { margin: 0 }
+.table-config-container  .dropdown {   position: relative !important;
+    top: 0;
+    display: inherit;}
+ 
+    
+ .table-config-container .reorder {
+
+    border-radius: 0;
+    width: 9px;
+    height: 12px;
+    padding: 0 !important;
+    margin: 4px 9px;
+    background-color: transparent !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+   // background-image: url("../");
+}
+.table-config-container  .dropdown:before ,
+.table-config-container  .dropdown:after{ display: none}
+
+.table-config-container .dropdown-menu  { width: 210px; right: 0; left: auto; }

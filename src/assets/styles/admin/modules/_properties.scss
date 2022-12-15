@@ -1,0 +1,46 @@
+.property-container {
+  position: relative;
+  padding-right: 10px;
+  border-bottom: 1px solid $grey;
+  padding: 10px 0 15px;
+  margin-bottom: 0px;
+}
+
+.property-container:last-child {
+  margin-bottom: 0px;
+}
+
+.property-container .view-property {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 42px;
+  z-index: 1;
+}
+.property-container:hover .view-property {
+  display: block;
+}
+
+.property-title {
+  border: none;
+  margin-bottom: 5px;
+  padding: 0px;
+  font-size: 12px;
+}
+.property-title strong {
+}
+
+.property-container .input-wrapper,
+.property-container .input-wrapper input,
+.property-container .input-wrapper textarea,
+.property-container .input-wrapper select {
+  font-weight: bold;
+}
+
+.property-container .input-wrapper {
+  padding: 0;
+}
+
+.accordion .accordion-heading {
+font-weight: bold;
+}

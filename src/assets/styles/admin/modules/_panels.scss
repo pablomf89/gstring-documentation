@@ -1,0 +1,6 @@
+.panel { background: #FFF; }
+.panel .panel-header { border-bottom: $global-border; padding: 10px 20px; margin-bottom: $global-margin*2; }
+.panel .panel-header * { margin: 0; }
+
+.tab { background: #f2f3f8;  }
+.tabs-menu li a.active { background: #f2f3f8; }
