@@ -1,4 +1,4 @@
-export const pages = [  
+export const pages = [
   {
     N: "Home",
     id: "home",
@@ -56,6 +56,17 @@ export const pages = [
     profilesAllowed: 1,
   },
   {
+    N: "Results",
+    id: "results",
+    parentId: null,
+    nicename: "results",
+    type: "results",
+    showInNav: true,
+    showInSecondaryNav: true,
+    isPrivate: false,
+    profilesAllowed: 1,
+  },
+  {
     N: "Messages",
     id: "messages",
     parentId: null,
@@ -99,7 +110,7 @@ export const pages = [
     isPrivate: false,
     profilesAllowed: 1,
   },
-    {
+  {
     N: "Calendar",
     id: "calendar",
     parentId: null,
@@ -110,7 +121,7 @@ export const pages = [
     isPrivate: false,
     profilesAllowed: 1,
   },
-    {
+  {
     N: "Accordions",
     id: "accordions",
     parentId: null,
@@ -142,5 +153,5 @@ export const pages = [
     showInSecondaryNav: true,
     isPrivate: false,
     profilesAllowed: 1,
-  }
+  },
 ];
