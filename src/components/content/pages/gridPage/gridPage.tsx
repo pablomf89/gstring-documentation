@@ -62,16 +62,16 @@ export default function GridPage() {
           6
           <div className="clearfix" />
           <div className="box-3">
-            <div className="inner bg-primary c3">3</div>
+            <div className="inner bg-primary color-white">3</div>
           </div>
           <div className="box-3">
-            <div className="inner bg-primary c3">3</div>
+            <div className="inner bg-primary color-white">3</div>
           </div>
           <div className="box-3">
-            <div className="inner bg-primary c3">3</div>
+            <div className="inner bg-primary color-white">3</div>
           </div>
           <div className="box-3">
-            <div className="inner bg-primary c3">3</div>
+            <div className="inner bg-primary color-white">3</div>
           </div>
           <div className="clearfix" />
         </div>
