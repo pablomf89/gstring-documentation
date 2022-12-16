@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import { required } from "@3ffect/gstring";
-import { Form, Wysiwyg, TextInput, CheckboxInput, RadioInput, SelectInput, TextArea, serializeForm, SelectFilter, SelectFilterOption, SwitchInput } from "@3ffect/gstring";
+import { Form, Wysiwyg, FileInput, TextInput, CheckboxInput, RadioInput, SelectInput, TextArea, serializeForm, SelectFilter, SelectFilterOption, SwitchInput } from "@3ffect/gstring";
 
 let formRef: any = undefined;
 
@@ -36,6 +36,7 @@ export const FormExample: React.FC = (): ReactElement => {
       <TextInput validations={[required]} label="Text input" placeholder="enabled" name="textInput" type="text" validateOnChange={true} />
       <TextInput validations={[required]} label="Nested props example" placeholder="enabled" name="nestedObject[0].property" type="text" validateOnChange={true} />
       <TextArea validations={[required]} label="Textarea" placeholder="example" name="textarea" type="text" />
+      <FileInput fileCaption={"Accepts all file types"} validations={[required]} label="File upload" placeholder="enabled" name="textInput" type="text" validateOnChange={true} multiple={true} />
       <SelectInput label="Select" className="" name="myselect" validations={[required]}>
         <option value="">Select</option>
         <option value="1">Select value 1</option>
