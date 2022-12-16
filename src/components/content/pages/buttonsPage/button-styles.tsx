@@ -24,9 +24,9 @@ export const ButtonStyles: React.FC = (): ReactElement => {
               Transparent button
             </a>
 
-            <small>
+            {/* <small>
               <input type="button" value="Small button mr10" className="" />
-            </small>
+            </small> */}
           </p>
 
           <p>
@@ -40,9 +40,7 @@ export const ButtonStyles: React.FC = (): ReactElement => {
             <button className="mr10 btn-success " disabled>
               Success Disabled
             </button>
-            <button className="mr10 btn-success-outline ">
-              Success Outline
-            </button>
+            <button className="mr10 btn-success-outline ">Success Outline</button>
             <button className="mr10 btn-success-outline " disabled>
               Success Disabled
             </button>
@@ -58,9 +56,7 @@ export const ButtonStyles: React.FC = (): ReactElement => {
             <button className="mr10 btn-warning " disabled>
               Warning Disabled
             </button>
-            <button className="mr10 btn-warning-outline ">
-              Warning Outline
-            </button>
+            <button className="mr10 btn-warning-outline ">Warning Outline</button>
             <button className="mr10 btn-warning-outline " disabled>
               Warning Disabled
             </button>
