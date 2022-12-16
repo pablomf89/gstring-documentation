@@ -1,0 +1,5 @@
+.slider-image { padding-bottom: 56.25%; height: 0; position: relative }
+.slider-image img {  display: block; top: 0; left: 0; height: 100%; width: 100%; position: absolute; }
+@media (max-width: 640px) {
+.slider-image { padding-bottom: 100%; height: 0; position: relative } 
+}

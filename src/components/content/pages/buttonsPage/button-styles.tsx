@@ -6,15 +6,15 @@ export const ButtonStyles: React.FC = (): ReactElement => {
       <div className="row ui-section">
         <div className="inner">
           <p>
-            <a href="#1" className="btn mr10">
+            <a href="#1" className="btn mr10 mb10">
               Link as button
             </a>
             <input type="button" value="Button" className="mr10" />
             <input type="submit" value="Submit" className="mr10" />
-            <button className="btn mr10">
+            <button className="btn mr10 mb10">
               <i className="fa fa-check"></i> Button with icon
             </button>
-            <button className="btn mr10">
+            <button className="btn mr10 mb10">
               <i className="fa fa-check-circle"></i>
             </button>
             <a href="#1" className="btn btn-outline mr10">
