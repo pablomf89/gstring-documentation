@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import { required, SelectFilter, SelectFilterOption, Wysiwyg } from "@3ffect/gstring";
+import { FileInput, required, SelectFilter, SelectFilterOption, Wysiwyg } from "@3ffect/gstring";
 import { Form, TextInput, CheckboxInput, RadioInput, SelectInput, TextArea, SwitchInput } from "@3ffect/gstring";
 export const InputsExample: React.FC = (): ReactElement => {
   return (
@@ -201,6 +201,14 @@ export const InputsExample: React.FC = (): ReactElement => {
 
           <div className="clearfix"></div>
         </div>
+        <div className="inner">
+          <h3 className="title">File uploader</h3>
+        </div>
+
+        <div className="inner">
+          <FileInput fileCaption={"Accepts all file types"} validations={[required]} label="File upload" placeholder="enabled" name="textInput" type="text" validateOnChange={true} multiple={true} />
+        </div>
+
         <div>
           <div className="inner">
             <h3 className="title">Wysiwyg</h3>
