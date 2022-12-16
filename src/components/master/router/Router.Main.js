@@ -19,8 +19,7 @@ import NotificationsPage from "components/content/pages/notificationsPage/notifi
 import DatePickerPage from "components/content/pages/datePickerPage/datePickerPage";
 import ResultsPage from "components/content/pages/resultsPage/resultsPage";
 import TabsPage from "components/content/pages/tabsPage/tabsPage";
-import InputsPage from "components/content/pages/forms/inputsPage/inputsPage";
-import GridPage from "components/content/pages/gridPage/gridPage";
+import SliderPage from "components/content/pages/sliderPage/sliderPage";
 
 function getNavItemComponentByType(navItem, user, pages) {
   switch (navItem.type) {
@@ -52,10 +51,8 @@ function getNavItemComponentByType(navItem, user, pages) {
       return ResultsPage;
     case "tabs":
       return TabsPage;
-    case "input-types":
-      return InputsPage;
-    case "grid":
-      return GridPage;
+    case "slider":
+      return SliderPage;
     default:
       return PageTypeNotImplemented;
   }
