@@ -21,7 +21,16 @@ class ResultsExample extends Component<RouteComponentProps> {
       <div className="g-item_16 g-item-tablet_8 g-item-mobile_4 mb8">
         <h3 className="hero mb2">Results</h3>
         {/* Please check the results PROPS interface for extra options. */}
-        <Results reactRouterHistory={this.props.history} clientFiltering={false} filterOnChange={true} columns={columnsExample} itemsPerPage={[2, 5, 10]} defaultColumns={columnsExample} fetchResults={this.fetchData}>
+        <Results
+          disableURLFilters={true}
+          reactRouterHistory={this.props.history}
+          clientFiltering={false}
+          filterOnChange={true}
+          columns={columnsExample}
+          itemsPerPage={[2, 5, 10]}
+          defaultColumns={columnsExample}
+          fetchResults={this.fetchData}
+        >
           {/* In this area you can add anything you want, it will appear on top of the table.
           If you add form INPUTS theyll be automatically serialize and sent to fetchResults function as the filters. */}
           <SelectInput label="Sample category filter" name="categoryId">
