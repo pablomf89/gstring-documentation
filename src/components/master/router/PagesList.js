@@ -10,7 +10,17 @@ export const pages = [
     isPrivate: false,
     profilesAllowed: 1,
   },
-  ,
+  {
+    N: "Grid",
+    id: "grid",
+    parentId: null,
+    nicename: "grid",
+    type: "grid",
+    showInNav: true,
+    showInSecondaryNav: true,
+    isPrivate: false,
+    profilesAllowed: 1,
+  },
   {
     N: "Global elements",
     id: "global-elements",
