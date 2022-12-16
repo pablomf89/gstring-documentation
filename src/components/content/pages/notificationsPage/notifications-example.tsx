@@ -6,7 +6,7 @@ export default class NotificationsExample extends React.Component {
     return (
       <>
         <button
-          className="btn mr10"
+          className="btn mr10 mb10"
           onClick={() => {
             addNotification({
               type: "success",
@@ -18,7 +18,7 @@ export default class NotificationsExample extends React.Component {
           Add Success Notification
         </button>
         <button
-          className="btn mr10"
+          className="btn mr10 mb10"
           onClick={() => {
             addNotification({
               type: "error",
@@ -30,7 +30,7 @@ export default class NotificationsExample extends React.Component {
           Add Error Notification
         </button>
         <button
-          className="btn mr10"
+          className="btn mr10 mb10"
           onClick={() => {
             addNotification({
               type: "warning",
@@ -42,7 +42,7 @@ export default class NotificationsExample extends React.Component {
           Add Warning Notification
         </button>
         <button
-          className="btn mr10"
+          className="btn mr10 mb10"
           onClick={() => {
             addNotification({
               type: "info",
